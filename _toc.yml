@@ -3,7 +3,21 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  - caption: Machine Learning Algorithms
+    numbered: True  # Only applies to chapters in Part 1.
+    chapters:
+    - file: MachineLearning/chapter1
+    - file: MachineLearning/chapter2
+  - caption: Deep Learning and Neural Networks
+    chapters:
+    - file: DeepLearning/chapter1
+    - file: DeepLearning/chapter2
+#  - caption: Computer Vision 
+#    chapters:
+#    - file:
+#    - file:
+#  - caption: Natural Language Processing
+#    chapters:
+#    - file:
+#    - file:
